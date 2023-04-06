@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(35, 35, 35);
+  color: blueviolet;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+button {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin-top: 2rem;
+  background-color: blueviolet;
+  border: 0;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+h2 {
+  margin-top: 0;
+}
+p {
+  font-size: 1.8rem;
+  margin-top: 5rem;
+}
+b {
+  color: rgb(196, 169, 221);
+}
+.container-image {
+  display: flex;
+  justify-content: center;
+}
+.image {
+  max-width: 25rem;
+  max-height: 25rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: greenyellow;
+}
+@media screen and (max-width: 458px) {
+  .image {
+    width: 20rem;
+    height: 20rem;
+  }
+}
